@@ -26,7 +26,19 @@ class SuperHeroProvider {
                 "Tony Stark",
                 "Marvel",
                 "https://sm.ign.com/t/ign_es/screenshot/default/iron-man-marvel-regreso_hft3.1200.jpg"
-            )
+            ),
+            SuperHero(
+                "Hulk",
+                "Bruce Banner",
+                "Marvel",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB1zH9pc-5_Gg2OSqxnunc7Og5GFT3G0GcgCVeORJV0vPvUkWfPkcxU9qcKsvqn__z5I4&usqp=CAU"
+            ),
+            SuperHero(
+                "Capitan America",
+                "Rogers",
+                "Marvel",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFAx0jC17hjjhcKdu_GSV9-5kI43Tn72xXDZSB-ohfif8KX_9IHV9--gNeKGYr9yNVy7U&usqp=CAU"
+            ),
         )
     }
 }
