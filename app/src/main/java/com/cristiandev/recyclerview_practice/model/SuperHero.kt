@@ -1,4 +1,4 @@
-package com.cristiandev.recyclerview_practice
+package com.cristiandev.recyclerview_practice.model
 
 data class SuperHero(
     val heroName: String,

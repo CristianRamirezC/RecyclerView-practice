@@ -1,9 +1,9 @@
-package com.cristiandev.recyclerview_practice.recycler.adapter
+package com.cristiandev.recyclerview_practice.adapter
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.cristiandev.recyclerview_practice.SuperHero
+import com.cristiandev.recyclerview_practice.model.SuperHero
 import com.cristiandev.recyclerview_practice.databinding.ItemSuperheroBinding
 
 class SuperHeroViewHolder(view: View): RecyclerView.ViewHolder(view) {

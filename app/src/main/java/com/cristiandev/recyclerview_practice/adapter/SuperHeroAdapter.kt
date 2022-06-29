@@ -1,10 +1,10 @@
-package com.cristiandev.recyclerview_practice.recycler.adapter
+package com.cristiandev.recyclerview_practice.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.cristiandev.recyclerview_practice.R
-import com.cristiandev.recyclerview_practice.SuperHero
+import com.cristiandev.recyclerview_practice.model.SuperHero
 
 class SuperHeroAdapter(private val superHeroList:List<SuperHero>, private val onClickListener: (SuperHero) -> Unit): RecyclerView.Adapter<SuperHeroViewHolder>() {
 

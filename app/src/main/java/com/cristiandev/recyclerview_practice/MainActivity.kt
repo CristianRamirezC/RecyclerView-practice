@@ -5,7 +5,9 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.cristiandev.recyclerview_practice.databinding.ActivityMainBinding
-import com.cristiandev.recyclerview_practice.recycler.adapter.SuperHeroAdapter
+import com.cristiandev.recyclerview_practice.adapter.SuperHeroAdapter
+import com.cristiandev.recyclerview_practice.model.SuperHero
+import com.cristiandev.recyclerview_practice.model.SuperHeroProvider
 
 class MainActivity : AppCompatActivity() {
 
