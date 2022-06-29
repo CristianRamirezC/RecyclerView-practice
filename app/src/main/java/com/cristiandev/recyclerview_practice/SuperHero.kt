@@ -5,4 +5,4 @@ data class SuperHero(
     val realName: String,
     val publisher: String,
     val photo: String
-) 
+)
